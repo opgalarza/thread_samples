@@ -3,6 +3,11 @@ package com.thread.information;
 import java.io.PrintWriter;
 import java.lang.Thread.State;
 
+/**
+ * 
+ * This sample was taken from Java 7 Concurrency Book
+ *
+ */
 public class CalculatorUtils {
 	
 	public static void writeThreadInfo(PrintWriter pw, Thread thread, State state) {
@@ -12,5 +17,4 @@ public class CalculatorUtils {
 		pw.printf("Main : New State: %s\n",thread.getState());
 		pw.printf("Main : ************************************\n");
 	}
-
 }

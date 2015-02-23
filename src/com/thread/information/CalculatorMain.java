@@ -5,6 +5,15 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.Thread.State;
 
+/**
+ * 
+ * This sample was taken from Java 7 Concurrency Book
+ * The purpose of this class is to show the basic information of a thread.
+ * It displays the id and the status of the thread as it moves from old state to new state.
+ * 
+ * NOTE: change the log file path in order for it to work properly. I hard coded it to my local directory in 
+ * a linux system.
+ */
 public class CalculatorMain {
 
 	public static void main(String[] args) throws IOException {
