@@ -25,6 +25,9 @@ public class EvenNumberChecker extends Thread{
 			if (isEven(number)) {
 				System.out.println("Number " + number + " is Even");
 			}
+			
+			// The isInterrupted() method only returns the value of the 
+			// interrupted boolean value of the thread.
 			if (isInterrupted()) {
 				System.out.println("The EvenNumberChecker has been Interrupted");
 				return;

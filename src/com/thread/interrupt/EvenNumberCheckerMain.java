@@ -19,6 +19,8 @@ public class EvenNumberCheckerMain {
 			e.printStackTrace();
 		}
 		// When the main thread wakes up, it will interrupt the spawned thread.
+		// When this method is called, the interrupted boolean value of the thread
+		// changes to true.
 		checker.interrupt();
 	}
 }
