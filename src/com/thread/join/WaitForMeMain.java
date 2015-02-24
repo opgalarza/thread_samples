@@ -26,6 +26,8 @@ public class WaitForMeMain {
 		} catch (InterruptedException e) {
 			System.out.println("WaitForMemain has been interrupted");
 		}
+		// After threadOne and threadTwo has finished, can this 
+		// statement be executed.
 		System.out.println("Finished the main program.");
 	}
 }
